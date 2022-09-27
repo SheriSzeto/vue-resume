@@ -4,7 +4,7 @@
             <div class="left">
                 <Brief :data="defaultData.Brief"/>
                 <ContextList
-                    title="CONTACT"
+                    title="联系方式"
                     title-size="14px"
                     :icon="require('@/assets/title-contact.png')"
                 >
@@ -17,7 +17,7 @@
                     />
                 </ContextList>
                 <ContextList
-                    title="SOCIAL"
+                    title="社交博客"
                     title-size="14px"
                     :icon="require('@/assets/title-contact.png')"
                 >
@@ -30,7 +30,7 @@
                     />
                 </ContextList>
                 <ContextList
-                    title="Skill"
+                    title="技能"
                     title-size="14px"
                     :icon="require('@/assets/title-contact.png')"
                 >
@@ -42,12 +42,29 @@
                         :key="item.key"
                     />
                 </ContextList>
+                <ContextList
+                    title="奖项荣誉"
+                    title-size="14px"
+                    :icon="require('@/assets/title-contact.png')"
+                >
+                    <ListItemInfo
+                        :title="item.value"
+                        :image="item.icon"
+                        slot="listItem"
+                        v-for="item in defaultData.Certificate"
+                        :key="item.key"
+                    />
+                </ContextList>
+                <ContextList
+                    title="自我评价"
+                    title-size="14px"
+                    :icon="require('@/assets/title-contact.png')"
+                >
+                    <ListItemAbout style="padding: 10px 15px;font-size: 14px" slot="listItem" :data="defaultData.AboutMe"/>
+                </ContextList>
             </div>
             <div class="right">
-                <ContextList title="About me">
-                    <ListItemAbout slot="listItem" :data="defaultData.AboutMe"/>
-                </ContextList>
-                <ContextList title="Education">
+                <ContextList title="教育背景">
                     <ListItemEducation
                         slot="listItem"
                         :data="item"
@@ -55,7 +72,15 @@
                         :key="item.school"
                     />
                 </ContextList>
-                <ContextList title="Working Experience">
+                <ContextList title="工作经历">
+                    <ListItemExperience
+                        slot="listItem"
+                        v-for="item in defaultData.WorkingExperience"
+                        :data="item"
+                        :key="item.compony"
+                    />
+                </ContextList>
+                <ContextList title="项目经历">
                     <ListItemExperience
                         slot="listItem"
                         v-for="item in defaultData.WorkingExperience"
@@ -72,11 +97,11 @@
             <button @click="print">Print</button>
         </div>
         <div class="footer">
-            <a href="https://github.com/luosijie/vue-resume" target="_blank">
+            <a href="https://github.com/SheriSzeto/vue-resume" target="_blank">
                 <img src="./assets/social-github.png" height="36" width="36" alt>
             </a>
             vue-resume designed by
-            <a href="https://github.com/luosijie">Jesse Luo</a>
+            <a href="https://github.com/SheriSzeto">sheriszeto</a>
         </div>
     </div>
 </template>

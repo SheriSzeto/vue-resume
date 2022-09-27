@@ -13,17 +13,17 @@
                 <li>
                     <span class="value" contenteditable="true" v-html="data.sex" @input="contentChange('sex', $event)"/>
                     <br>
-                    <span class="key" contenteditable="true">SEX</span>
+                    <span class="key" contenteditable="true">性别</span>
                 </li>
                 <li>
                     <span class="value" contenteditable="true" v-html="data.age" @input="contentChange('age', $event)"/>
                     <br>
-                    <span class="key" contenteditable="true">AGE</span>
+                    <span class="key" contenteditable="true">年龄</span>
                 </li>
                 <li>
                     <span class="value" contenteditable="true" v-html="data.degree" @input="contentChange('degree', $event)"/>
                     <br>
-                    <span class="key" contenteditable="true">DEGREE</span>
+                    <span class="key" contenteditable="true">学历</span>
                 </li>
             </ul>
         </div>
