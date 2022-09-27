@@ -1,101 +1,87 @@
+/*
+ * @Author: 司徒欣 sheri.situ@wetax.com.cn
+ * @Date: 2020-04-04 21:03:08
+ * @LastEditors: 司徒欣 sheri.situ@wetax.com.cn
+ * @LastEditTime: 2022-09-27 18:59:37
+ * @FilePath: /vue-resume/src/config/data.js
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
 export default {
     Brief: {
-        name: '司徒欣',
-        position: '求职目标：前端开发',
-        location: '常驻地：广东广州',
+        name: '林巧怡',
+        position: '文职',
+        location: '广东,阳江',
         sex: '女',
-        age: '1992.09',
-        degree: '本科'
+        age: 26,
+        degree: '中专'
     },
     Contact: [
-        { icon: require('@/assets/contact-phone.png'), key: 'phone', value: '135****0252' },
-        { icon: require('@/assets/contact-mail.png'), key: 'mail', value: 'sheri.situ@163.com' },
-        { icon: require('@/assets/social-wechat.png'), key: 'wechat', value: '135****0252' }
-    ],
-    Social: [
-        { icon: require('@/assets/social-github.png'), key: 'github', value: 'https://github.com/SheriSzeto' },
-        { icon: require('@/assets/social-dribbble.png'), key: 'szeto.club', value: 'szeto.club' }
+        { icon: require('@/assets/contact-phone.png'), key: 'phone', value: '15113538898' },
+        { icon: require('@/assets/contact-mail.png'), key: 'mail', value: '244547102@qq.com' },
+        { icon: require('@/assets/social-wechat.png'), key: 'wechat', value: 'LqyAINI' }
     ],
     Skill: [
-        { icon: require('@/assets/mini.png'), key: 'mini', value: '微信小程序' },
-        { icon: require('@/assets/Nodejs.png'), key: 'node', value: 'Nodejs' },
-        { icon: require('@/assets/Vue.png'), key: 'vue', value: 'Vue' },
-        { icon: require('@/assets/React.png'), key: 'react', value: 'React' }
+        { icon: require('@/assets/skill-ps.png'), key: 'ps', value: 'ps' },
+        { icon: require('@/assets/WPS.png'), key: 'WPS', value: 'office' },
+        { icon: require('@/assets/sale.png'), key: 'sale', value: '销售营销' },
+        { icon: require('@/assets/print.png'), key: 'print', value: '打印、复印' }
     ],
     Certificate: [
-        { icon: require('@/assets/cet4.png'), key: 'mini', value: '大学英语CET-4' },
-        { icon: require('@/assets/prize.png'), key: 'node', value: '大学英语奥林匹克竞赛三等奖' },
-        { icon: require('@/assets/cert.png'), key: 'vue', value: 'web前端开发高级专项技术证书' }
+        { icon: require('@/assets/driver.png'), key: 'driver', value: 'C1驾照' }
     ],
-    AboutMe: `
-        本人做事稳重，对待工作认真，责任心较强，待人真诚，善于沟通，时刻保持学习，积极拥抱变化，喜欢前端开发，乐于学习和尝试新技术，具有较强的执行力和团队合作意识，能够很快地适应工作环境
-    `,
+    AboutMe: `本人做事稳重，对待工作认真，责任心较强，善于沟通，具有较强的独立学习和工作能力，工作有担当，性格开朗，具有良好的沟通协调能力，执行力强，待人接物有耐心、有亲和力`,
     Education: [
-        { school: '广东技术师范大学', major: '软件工程', date: '2011.9-2015.6', description: '' }
+        { school: '阳江市高级技工学校', major: '电子商务', date: '2011.11-2013.3', description: '' }
     ],
     WorkingExperience: [
         {
-            company: 'Google',
-            position: 'UI designer',
-            date: '2015.1-2016.3',
+            company: '飘香粽',
+            position: '个体商户',
+            date: '2020.08-今',
             description: `
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris blandit metus in 
-                libero rutrum congue aliquam eu libero. Donec tristique est pharetra fringilla 
-                sollicitudin. Etiam eu ipsum vitae nulla tincidunt scelerisque semper id arcu. 
-                Phasellus quam tellus, laoreet id felis a, dignissim facilisis orci. Mauris feugiat 
-                vulputate quam quis tincidunt. In eleifend augue eu tristique bibendum. Donec 
-                gravida, eros sed iaculis iaculis, magna est finibus tortor, ultricies accumsan diam 
-                lorem non neque. sim facilisis orci. Mauris feugiat vulputate quam quis tincidunt. 
-                In eleifend augue eu tristique bibendum. Donec gravida, eros sed iaculis iaculis, 
-                magna est finibus tortor, ultricies accumsan diam lorem non neque.
+            该店铺主要从事售卖手工粽子行业，我在该店主要负责产品销售，按客户的要求定制节日礼盒，活动营销和跟单处理的工作，主要参与：<br><br>
+            1.管理订购客户档案，与客户直接沟通交流，跟进客户的需求订制应节粽子产品及礼盒<br>
+            2.参与负责产品的包装设计，定制工作，包括产品拍摄，构图及图片后期制作<br>
+            3.参与新口味产品的试吃，定价及口味调查，提出改进产品建议及产品销售介绍，广告宣传的工作<br>
+            4.负责产品的微信营销策略定制，朋友圈宣传文案撰写工作
             `
         },
         {
-            company: 'Facebook',
-            position: 'UI designer',
-            date: '2015.1-2016.3',
+            company: '宏宏照相馆',
+            position: '照片修复员',
+            date: '2018.1-2020.3',
             description: `
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris blandit metus in 
-                libero rutrum congue aliquam eu libero. Donec tristique est pharetra fringilla 
-                sollicitudin. Etiam eu ipsum vitae nulla tincidunt scelerisque semper id arcu. 
-                Phasellus quam tellus, laoreet id felis a, dignissim facilisis orci. Mauris feugiat 
-                vulputate quam quis tincidunt. In eleifend augue eu tristique bibendum. Donec 
-                gravida, eros sed iaculis iaculis, magna est finibus tortor, ultricies accumsan diam 
-                lorem non neque. sim facilisis orci. Mauris feugiat vulputate quam quis tincidunt. 
-                In eleifend augue eu tristique bibendum. Donec gravida, eros sed iaculis iaculis, 
-                magna est finibus tortor, ultricies accumsan diam lorem non neque.
+            该企业主要从事各种类证件照拍摄，数码照片冲洗和怀旧照片修复等业务，我任职于照片处理部门，主要参与：<br><br>
+            1.负责门店顾客接待，资料记录以及证件照摄影工作<br>
+            2.负责证件照，数码照片后期，怀旧照片修复等工作<br>
+            3.负责日历，相册排版，设计及印刷工作<br>
+            4.参与店内产品如相架，胶卷等的产品销售工作
+            `
+        }
+    ],
+    ProjectExperience: [
+        {
+            company: '端午节活动营销策划',
+            position: '',
+            date: '',
+            description: `
+            描述：端午节的粽子礼盒包装和设计，以及节日活动策划，打折促销，朋友圈营销策略定制<br>
+            工作内容：<br>
+            1.负责产品的保鲜，真空包装的设计<br>
+            2.负责礼盒的设计，以及联系淘宝卖家生产包装盒，跟踪质量和进度<br>
+            3.负责快递合作方案定制<br>
+            4.负责微信，朋友圈宣传节日文案撰写，粽子的宣传图拍摄和后期处理
             `
         },
         {
-            company: 'Airbnb',
-            position: 'UI designer',
-            date: '2015.1-2016.3',
+            company: '照片处理',
+            position: '',
+            date: '',
             description: `
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris blandit metus in 
-                libero rutrum congue aliquam eu libero. Donec tristique est pharetra fringilla 
-                sollicitudin. Etiam eu ipsum vitae nulla tincidunt scelerisque semper id arcu. 
-                Phasellus quam tellus, laoreet id felis a, dignissim facilisis orci. Mauris feugiat 
-                vulputate quam quis tincidunt. In eleifend augue eu tristique bibendum. Donec 
-                gravida, eros sed iaculis iaculis, magna est finibus tortor, ultricies accumsan diam 
-                lorem non neque. sim facilisis orci. Mauris feugiat vulputate quam quis tincidunt. 
-                In eleifend augue eu tristique bibendum. Donec gravida, eros sed iaculis iaculis, 
-                magna est finibus tortor, ultricies accumsan diam lorem non neque.
-            `
-        },
-        {
-            company: 'Twitter',
-            position: 'UI designer',
-            date: '2015.1-2016.3',
-            description: `
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris blandit metus in 
-                libero rutrum congue aliquam eu libero. Donec tristique est pharetra fringilla 
-                sollicitudin. Etiam eu ipsum vitae nulla tincidunt scelerisque semper id arcu. 
-                Phasellus quam tellus, laoreet id felis a, dignissim facilisis orci. Mauris feugiat 
-                vulputate quam quis tincidunt. In eleifend augue eu tristique bibendum. Donec 
-                gravida, eros sed iaculis iaculis, magna est finibus tortor, ultricies accumsan diam 
-                lorem non neque. sim facilisis orci. Mauris feugiat vulputate quam quis tincidunt. 
-                In eleifend augue eu tristique bibendum. Donec gravida, eros sed iaculis iaculis, 
-                magna est finibus tortor, ultricies accumsan diam lorem non neque.
+            描述：对照片进行美化，剪辑及处理<br>
+            工作内容：<br>
+            1.利用photoshop处理图像，调整图像过暗过亮，对比度等问题<br>
+            2.新年日历的照片排版，客户私人定制相册的排版工作<br>
             `
         }
     ]
