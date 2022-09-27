@@ -1,7 +1,7 @@
 <template>
     <div class="brief">
         <div class="avatar">
-            <EditImage :src="require('@/assets/logo_name.png')" width="100" height="100" :isCircle="true" class="img"/>
+            <EditImage :src="require('@/assets/girl.png')" width="100" height="100" :isCircle="true" class="img"/>
             <div class="name" contenteditable="true" v-html="data.name" @input="contentChange('name', $event)"/>
             <div class="job" contenteditable="true" v-html="data.position" @input="contentChange('position', $event)"/>
             <div class="location">
