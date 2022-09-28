@@ -83,7 +83,7 @@
                 <ContextList title="项目经历">
                     <ListItemExperience
                         slot="listItem"
-                        v-for="item in defaultData.WorkingExperience"
+                        v-for="item in defaultData.ProjectExperience"
                         :data="item"
                         :key="item.compony"
                     />
